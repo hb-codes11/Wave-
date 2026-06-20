@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Lavalink Server",
+      "type": "shell",
+      "command": "/opt/homebrew/opt/openjdk@17/bin/java -jar Lavalink.jar",
+      "options": {
+        "cwd": "${workspaceFolder}/lavalink"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "group": "none"
+    }
+  ]
+}

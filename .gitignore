@@ -1,0 +1,38 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Bot Configuration & Secrets
+.env
+wave_bot/.env
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local archives
+wave_bot.zip
+
+# Lavalink binaries, plugins, configs and logs
+lavalink/
+
+# Skip pushing AI-looking README
+wave_bot/README.md
+
+# Skip pushing developer portal guide
+wave_bot/DISCORD_DEVELOPER_PORTAL_GUIDE.md
+
+
